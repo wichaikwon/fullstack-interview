@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "title": "Siam Amazing Park",
+    "description": "A large amusement and water park in Bangkok, Thailand.",
+    "img": "/assets/tickets/siam.jpeg",
+    "price": 1000
+  },
+  {
+    "id": 2,
+    "title": "Safari World",
+    "description": "A popular open zoo and leisure park in Bangkok, Thailand.",
+    "img": "/assets/tickets/siam.jpeg",
+    "price": 1200
+  },
+  {
+    "id": 3,
+    "title": "Dream World",
+    "description": "A large amusement park in Thailand, featuring rides and attractions.",
+    "img": "/assets/tickets/siam.jpeg",
+    "price": 1500
+  },
+  {
+    "id": 4,
+    "title": "Sea Life Bangkok Ocean World",
+    "description": "An aquarium located in the basement of Siam Paragon shopping mall.",
+    "img": "/assets/tickets/siam.jpeg",
+    "price": 2000
+  }
+]
