@@ -1,7 +1,7 @@
 'use client'
 import { useCart } from '@/contexts/useCart'
 import Image from 'next/image'
-import React, { Fragment, useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import discount from '@/api_mock/discounts.json'
 
 const Cart: React.FC = () => {
@@ -13,7 +13,11 @@ const Cart: React.FC = () => {
   }, [])
 
   if (!isMounted) {
-    return <div className="flex flex-col h-full border gap-2 bg-white">Loading...</div>
+    return (
+      <div className="flex flex-col h-full border gap-2 bg-white">
+        Loading...
+      </div>
+    )
   }
   const appliedDiscount = discount.find(
     (d) => d.code === discountCode && d.discount > 0
@@ -39,7 +43,7 @@ const Cart: React.FC = () => {
             width={48}
             height={48}
             className="w-[48px] h-[48px] object-contain"
-            priority={true} 
+            priority={true}
             sizes="100vw"
           />
           <div className="flex-1">
